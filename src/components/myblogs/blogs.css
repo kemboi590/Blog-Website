@@ -1,0 +1,39 @@
+.containBlogs{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.mapBlog{
+    width: 60%;
+    border: 1px solid black;
+}
+.title{
+    text-align: center;
+    color: #073A09;
+    border: 1px solid black;
+    background-color: #c06024bf;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.content{
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.shortSummary{
+    width: 40%;
+    text-align: center;
+
+}
+.sammary-title{
+    text-align: center;
+    color: #073A09;
+}
+.summary{
+    border: 1px solid black;
+    padding: 54px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+

@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #416469;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    
+    position: fixed;
+   bottom: 0;
+   
+}
