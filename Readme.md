@@ -1,3 +1,3 @@
 # KemboiTechBlog
 
-![ KemboiTechBlog](../viteReactApp/src/assets/blog%20site.PNG)
+![ KemboiTechBlog](/src/assets/blog%20site.PNG)
