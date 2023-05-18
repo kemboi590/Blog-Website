@@ -1,0 +1,44 @@
+.contact-Page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: rgba(225, 199, 199, 0.661);;
+}
+
+.contact-Page h4{
+    width: 60%;
+    border: 1px solid #3333335d;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #333;
+    margin-top: 80px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.myUl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #3333335d;
+    border-radius: 10px;
+}
+.myUl h2{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #073A09;
+    background-color: #c06024bf;
+}
+.mylist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:  20px;
+}

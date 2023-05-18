@@ -8,10 +8,10 @@ console.log(today);
 function Footer() {
   return (
       <div>
-          <ul>
-              <li>Author - <span>Brian Kemboi</span></li>
-              <li>Email - <span>bkemboi590@gmail.com</span> </li>
-        <li>Date - <span>{date }</span></li>
+          <ul className='footerUl'>
+              <li className='footerList'>Author - <span>Brian Kemboi</span></li>
+              <li className='footerList'>Email - <span>bkemboi590@gmail.com</span> </li>
+             <li className='footerList'>Date - <span>{date }</span></li>
           </ul>
     </div>
   )

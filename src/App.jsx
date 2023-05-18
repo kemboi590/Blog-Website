@@ -15,22 +15,21 @@ import WebDev from './pages/WebDev'
 import TechJourney from './pages/TechJourney'
 import FutureAI from './pages/FutureAI'
 import NotFound from './pages/NotFound'
+import About from './pages/About'
+import Contacts from './pages/Contacts'
 
 function App() {
 
   return (
     <>
-      {/* <Header /> 
-      <Blogs />
-      <Footer /> */}
-
-
-
+  
       <Router>
         <Header />
         <Routes>
 
           <Route path="/" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts/>} />
           <Route path="/webdev" element={<WebDev />} />
           <Route path="/techjourney" element={<TechJourney />} />
           <Route path="/futureai" element={<FutureAI />} />
@@ -40,12 +39,6 @@ function App() {
         <Footer />
       </Router>
 
-
-{/* PAGES */}
-      {/* <WebDev /> */}
-      {/* <TechJourney /> */}
-      {/* <FutureAI/> */}
-      
     </>
   )
 }

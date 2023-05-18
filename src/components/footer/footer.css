@@ -1,4 +1,4 @@
-ul{
+.footerUl{
     list-style: none;
     display: flex;
     justify-content: space-around;
