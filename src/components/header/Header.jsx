@@ -10,7 +10,7 @@ function Header() {
       <div  className='header-section'>
       <h1>WELCOME TO MY BLOG WEBSITE</h1>
       <div className="headerLinks">
-      <Link to='/' className='linkitem'>Home {AiFillHome} </Link>
+      <Link to='/' className='linkitem'>My-Blogs </Link>
       <Link to='/webdev' className='linkitem'>WebDev </Link>
       <Link to='/techjourney' className='linkitem'>TechJourney </Link>
       <Link to='/futureai' className='linkitem'>FutureAI </Link>
