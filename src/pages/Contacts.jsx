@@ -6,6 +6,7 @@ import './contact.css'
 function Contacts() {
   return (
       <div className='contact-Page'>
+    
           <h4>
               Thank you for visiting my website. If you have any questions, suggestions, or just want
               to connect, feel free to reach out to me using the contact information below. I'm always
