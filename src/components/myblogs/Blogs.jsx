@@ -13,7 +13,7 @@ function Blogs() {
           <div className="mapBlog">
           {blogData.map(({ title, content, to }) => {
                 return (
-                    <div className="blog">
+                    <div className="blogg">
                         <h2 className="title" >{title}</h2>
                         <p className="content">{content}</p>
                         <Link to={to} className='readmore-btn'>   Read More</Link> <br /> <br />
