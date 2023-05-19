@@ -1,6 +1,6 @@
 import React from 'react'
 import './pages.css'
-
+import { Link } from 'react-router-dom'
 
 
 function TechJourney() {
@@ -96,7 +96,9 @@ function TechJourney() {
             I am excited to be a part of this ever-evolving journey, ready to tackle new challenges and contribute
             to a brighter, tech-driven future
 
-                  </p>
+          </p>
+          <Link to='/' className='back'>Back Home </Link>
+          
               </div>
 
   </div>   

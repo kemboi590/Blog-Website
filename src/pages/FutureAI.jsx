@@ -1,5 +1,6 @@
 import React from 'react'
 import './pages.css'
+import { Link } from 'react-router-dom'
 
 
 function FutureAI() {
@@ -88,7 +89,9 @@ function FutureAI() {
             AI's potential for good, we can create a future where the possibilities are limitless, and innovation
             knows no bounds.
 
-                  </p>
+          </p>
+          <Link to='/' className='back'>Back Home </Link>
+         
               </div>
  
   </div>   
