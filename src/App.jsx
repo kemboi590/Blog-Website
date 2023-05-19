@@ -26,7 +26,6 @@ function App() {
       <Router>
         <Header />
         <Routes>
-
           <Route path="/" element={<Blogs />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts/>} />
@@ -34,7 +33,6 @@ function App() {
           <Route path="/techjourney" element={<TechJourney />} />
           <Route path="/futureai" element={<FutureAI />} />
           <Route path="*" element={<NotFound />} />
-
         </Routes>
         <Footer />
       </Router>
