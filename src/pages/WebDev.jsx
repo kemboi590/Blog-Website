@@ -1,5 +1,6 @@
 import React from 'react'
 import './pages.css'
+import { Link } from 'react-router-dom'
 
 
 const WebDev = () => {
@@ -78,13 +79,14 @@ const WebDev = () => {
             web design, serverless architecture, Jamstack, and machine learning. By embracing these modern trends,
             developers can build high-performance, scalable, and user-friendly web applications that meet the
             ever-growing demands of today's digital world.
-
-
-
-                  </p>
+          </p>
+          
+          <Link to='/' className='back'>Back Home </Link>
               </div>
- 
-  </div>
+      </div>
+
+      
+      
 
 </div>
   )

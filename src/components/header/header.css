@@ -4,21 +4,24 @@
     border-bottom: 1px solid #0A0A09;
 }
 .headerLinks{
-    
     display: flex;
     justify-content: center;
     margin-top: 16px;
     align-items: center;
-    
-    
-
+    text-align: center;
 }
 .linkitem{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     font-family: sans-serif;
+    text-align: center;
+    color: white;
+   
 }
+.linkitem svg {
+    margin-right: 7px;
+  }
 .linkitem:hover{
     color: #0A0A09;
     cursor: pointer;

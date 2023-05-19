@@ -1,6 +1,9 @@
 import React from 'react'
 import './contact.css'
-
+import { FaPhoneAlt } from 'react-icons/fa'
+import { GrMail } from 'react-icons/gr'
+import { AiFillLinkedin } from 'react-icons/ai'
+ import {FiExternalLink} from 'react-icons/fi'
 
 
 function Contacts() {
@@ -17,10 +20,10 @@ function Contacts() {
           <div className="contac-details">
               <ul className='myUl'>
                   <h2>Connect with me:</h2>
-                  <li className='mylist'>Phone - +254768353360</li>
-                  <li className='mylist'>Email -bkemboi590@gmail.com</li>
-                  <li className='mylist'><a href="https://www.linkedin.com/in/kibichii-brian/">LinkedIn</a></li>
-                  <li className='mylist'><a href="https://polite-hill-0a3e25203.2.azurestaticapps.net/">My Website</a></li>
+                  <li className='mylist'><FaPhoneAlt/> - +254768353360</li>
+                  <li className='mylist'><GrMail/> -bkemboi590@gmail.com</li>
+                  <li className='mylist'><a href="https://www.linkedin.com/in/kibichii-brian/" target='_blank'><AiFillLinkedin/>LinkedIn</a></li>
+                  <li className='mylist'><a href="https://polite-hill-0a3e25203.2.azurestaticapps.net/"  target='_blank'><FiExternalLink/>visit My-Website</a></li>
               </ul>
           </div>
           
